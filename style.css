@@ -1,0 +1,219 @@
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(54,53,67);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .logo {
+    color: white;
+    font-size: 35x;
+    letter-spacing: 1px;    
+  }
+ 
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+    color: #f9004d;
+  }
+  .fa-sharp {
+      color: gold;
+  }
+  .icon li {
+      color: white;
+  }
+
+  
+
+  .one {
+      margin-left: 100px;
+  }
+
+.one h4 {
+    color: gray;
+    font-size: 50px;
+    font-weight: 700px;
+    
+}
+.one h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 0.5px;
+}
+
+
+.one p {
+    display: flex;
+    color: rgb(153, 149, 149);
+    word-spacing: 2px;
+    font-weight: normal;
+}
+.two {
+    position:absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    
+}
+.two img {
+    height: 400px;
+    width: 350px;
+}
+.three {
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    color:white;;
+    letter-spacing: 1px;
+}   
+.three a {
+  text-decoration: none;
+  color: goldenrod;
+  line-height: 3;
+} 
+.icon-2 {
+  color: goldenrod;
+}
+
+.table {
+  
+  color: white;
+  position: absolute;
+  top: 92%;
+  left: 20%;
+}
+td {
+  border: 35px   solid rgb(58, 58, 68);
+  width: 150px;
+  height:35px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: rgb(41,41,53);
+  
+}
+table {
+  border-collapse:collapse; 
+  
+}
+table i {
+  color: blue;
+}
+  /*hero ection*/
+.hero {
+   background-color: rgb(41,41,53);
+   height: 100vh;
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.near {
+   padding: 98px;
+   color: white;
+   letter-spacing: 1px;
+}
+.near h1 {
+  font-size: 50px;
+  line-height: 75px;
+
+}
+.near p {
+  line-height: 1.50;
+} 
+.near ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top:10px;
+  right: 37px; 
+
+  }
+.near li {
+  margin-right: 55px;  
+}
+.near span {
+  color: goldenrod;
+  font-size:30px;
+  font-weight: bold;
+}
+.last {
+  position: absolute;
+  right: 20%;
+  top:  120%;
+  line-height: 100px;
+  
+  
+}
+.last img {
+  width: 120px;
+  height: 120px;
+} 
+.last div {
+  display: flex;
+}
+   
+.footer {
+  background-color:  rgb(41,41,53);
+  width: 100%;
+ 
+
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.box {
+  height:200px;
+  width: 200px;
+  padding: 20px 35px;
+  background-color: rgb(54,53,67);
+  margin: 15px;
+  position: relative;
+  left: 20px;
+  right: 20px;
+   text-align: center; 
+}
+.icon-3 i {
+  font-size: 40px;
+  display: block;
+  margin: 25px 0px;
+  color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
